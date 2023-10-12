@@ -158,3 +158,17 @@ button {
 .next-slide {
   float: right;
 }
+
+/* Style the "Return to Top" button */
+.return-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF; /* Change to your desired button color */
+  color: #fff; /* Change to your desired text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
