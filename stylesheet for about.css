@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica;
+        background-color: #3AAFA9;
+        color: #FEFFFF;;
+    }
+
+     /* Basic styling for the navigation bar */
+nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for dropdown links */
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+
+
+  /* Style for footer */
+  footer {
+    clear: both; 
+    text-align: center; 
+    padding: 10px; 
+    background-color: #333; /* Background color for the footer */
+}
